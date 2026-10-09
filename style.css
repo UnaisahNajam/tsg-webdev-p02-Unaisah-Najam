@@ -40,3 +40,18 @@ section[id]{scroll-margin-top:70px}
 .plan.featured .price{color:var(--saffron)}.plan.featured .price span{color:#cfe0da}
 .plan.featured li i{color:var(--saffron)}
 .badge-rec{position:absolute;top:1rem;right:1rem;background:var(--saffron);color:var(--ink);font-weight:700;font-size:.8rem;padding:.2rem .7rem;border-radius:2rem}
+
+
+/* Slider */
+.slider{max-width:720px;text-align:center}
+.slides{position:relative;min-height:190px}
+.slide{display:none;margin:0}.slide.active{display:block;animation:fade .4s}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.slide blockquote{font-family:'Bricolage Grotesque';font-size:clamp(1.3rem,3vw,1.8rem);font-weight:500;color:var(--teal)}
+.slide figcaption{color:#5b6b66;font-weight:600}
+.slider-controls{display:flex;justify-content:center;align-items:center;gap:1.2rem;margin-top:1.5rem}
+.slider-controls button{border:2px solid var(--teal);background:transparent;color:var(--teal);width:44px;height:44px;border-radius:50%}
+.slider-controls button:hover{background:var(--teal);color:#fff}
+#dots{display:flex;gap:.5rem}
+#dots button{width:12px;height:12px;padding:0;border-radius:50%;border:0;background:#b9cac3}
+#dots button.on{background:var(--chili)}

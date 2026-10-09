@@ -30,3 +30,13 @@ section[id]{scroll-margin-top:70px}
 .service:hover{transform:translateY(-6px);border-color:var(--saffron);box-shadow:0 10px 24px rgba(15,61,62,.12)}
 .service i{font-size:2rem;color:var(--chili)}
 .service h3{font-size:1.25rem;margin:.8rem 0 .4rem}.service p{margin:0}
+
+/* Pricing */
+.plan{padding:2rem;border-radius:.5rem;border:1px solid #cfdcd5;background:#fff}
+.plan .price{font-family:'Bricolage Grotesque';font-size:2.2rem;font-weight:800;color:var(--teal)}
+.plan .price span{font-size:1rem;font-weight:500;color:#5b6b66}
+.plan li{margin-bottom:.5rem}.plan li i{color:var(--chili);margin-right:.4rem}
+.plan.featured{background:var(--teal);color:#fff;border:0;padding-top:3rem;padding-bottom:3rem;position:relative}
+.plan.featured .price{color:var(--saffron)}.plan.featured .price span{color:#cfe0da}
+.plan.featured li i{color:var(--saffron)}
+.badge-rec{position:absolute;top:1rem;right:1rem;background:var(--saffron);color:var(--ink);font-weight:700;font-size:.8rem;padding:.2rem .7rem;border-radius:2rem}

@@ -37,3 +37,11 @@ document.querySelectorAll('.faq-q').forEach(btn => {
     }
   });
 });
+
+// ===== Close mobile menu after tapping a link =====
+document.querySelectorAll('#navMenu .nav-link, #navMenu .btn').forEach(link => {
+  link.addEventListener('click', () => {
+    const menu = document.getElementById('navMenu');
+    if (menu.classList.contains('show')) bootstrap.Collapse.getOrCreateInstance(menu).hide();
+  });
+});

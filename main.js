@@ -20,3 +20,20 @@ function restart() { clearInterval(timer); timer = setInterval(() => show(curren
 document.getElementById('prevBtn').addEventListener('click', () => { show(current - 1); restart(); });
 document.getElementById('nextBtn').addEventListener('click', () => { show(current + 1); restart(); });
 show(0); restart();
+
+// ===== FAQ accordion =====
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const answer = btn.nextElementSibling;
+    const isOpen = btn.getAttribute('aria-expanded') === 'true';
+    // close all, then open the clicked one if it was closed
+    document.querySelectorAll('.faq-q').forEach(b => {
+      b.setAttribute('aria-expanded', 'false');
+      b.nextElementSibling.style.maxHeight = null;
+    });
+    if (!isOpen) {
+      btn.setAttribute('aria-expanded', 'true');
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+    }
+  });
+});

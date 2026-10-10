@@ -45,3 +45,23 @@ document.querySelectorAll('#navMenu .nav-link, #navMenu .btn').forEach(link => {
     if (menu.classList.contains('show')) bootstrap.Collapse.getOrCreateInstance(menu).hide();
   });
 });
+
+// ===== Contact form validation =====
+const form = document.getElementById('contactForm');
+const statusMsg = document.getElementById('formStatus');
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  let valid = true;
+  form.querySelectorAll('input, textarea').forEach(f => {
+    const ok = f.value.trim() !== '' && f.checkValidity();
+    f.classList.toggle('is-invalid', !ok);
+    if (!ok) valid = false;
+  });
+  if (valid) {
+    statusMsg.textContent = 'Thanks! We will reply within a few hours.';
+    statusMsg.className = 'mt-3 mb-0 ok';
+    form.reset();
+  } else {
+    statusMsg.textContent = '';
+  }
+});

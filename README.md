@@ -44,9 +44,8 @@ reports/         (Lighthouse report)
 | ![mobile](screenshots/mobile.png) | ![tablet](screenshots/tablet.png) | ![desktop](screenshots/desktop.png) |
 
 ## Lighthouse report
-Performance: `<score>` | Accessibility: `<score>` | Best Practices: `<score>` | SEO: `<score>`
-
-See `reports/lighthouse.pdf`.
+Performance: 96 | Accessibility: 93 | Best Practices: 100 | SEO: 100
+Tested on mobile against the live Vercel deployment. See `reports/lighthouse.pdf`.
 
 ## Credits
 - Hero image: AI-generated with ChatGPT, October 2026

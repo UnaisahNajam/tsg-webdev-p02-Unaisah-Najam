@@ -20,7 +20,7 @@ section[id]{scroll-margin-top:70px}
    the top of the frame so the croissant/bread basket show instead of being
    cropped out by background-size:cover. Adjust "center top" below to taste. */
 .hero{min-height:100vh;color:#fff;padding-top:80px;
-  background:linear-gradient(100deg,rgba(15,61,62,.82) 28%,rgba(15,61,62,.2) 62%),url('./hero.png') center top/cover,var(--teal)}
+  background:linear-gradient(100deg,rgba(15,61,62,.82) 28%,rgba(15,61,62,.2) 62%),url('./hero.jpg') center top/cover,var(--teal)}
 .hero h1,.hero .lead{text-shadow:0 2px 12px rgba(15,61,62,.6)}
 .hero h1{font-size:clamp(2.4rem,6.5vw,4.6rem);font-weight:800;line-height:1.05;margin-bottom:1.2rem}
 .hero .lead{max-width:34rem;margin-bottom:2rem;color:#e3eeea}

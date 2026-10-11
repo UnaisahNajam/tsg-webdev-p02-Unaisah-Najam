@@ -3,7 +3,7 @@
 **The Sky Gen, Web Development, Project 02 (Beginner)** | Ref: TSG/WD/P02/2026
 
 - Live site: https://tsg-webdev-p02-unaisah-najam.vercel.app/
-- Repository: `<paste GitHub URL>`
+- Repository: https://github.com/UnaisahNajam/tsg-webdev-p02-Unaisah-Najam
 
 ## Business concept
 Kettle & Crumb is a fictional neighbourhood café in Gujranwala that serves slow-brewed chai, specialty coffee and fresh bakes. The page is built to turn visitors into customers: it opens with a hero and call-to-action, shows the services, offers monthly café plans, builds trust with reviews, answers doubts in an FAQ, and ends with a booking form and map.

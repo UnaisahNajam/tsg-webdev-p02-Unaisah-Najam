@@ -46,7 +46,7 @@ reports/         (Lighthouse report)
 ## Lighthouse report
 Performance: 96 | Accessibility: 93 | Best Practices: 100 | SEO: 100
 
-Tested on mobile against the live Vercel deployment. See Lighthouse Report.pdf.
+[View the full report (PDF)](reports/tsg-webdev-p02-unaisahnajam-lighthouse.pdf)
 
 ## Credits
 - Hero image: AI-generated with ChatGPT, October 2026

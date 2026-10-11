@@ -2,7 +2,7 @@
 
 **The Sky Gen, Web Development, Project 02 (Beginner)** | Ref: TSG/WD/P02/2026
 
-- Live site: `<paste Netlify/Vercel URL>`
+- Live site: https://tsg-webdev-p02-unaisah-najam.vercel.app/
 - Repository: `<paste GitHub URL>`
 
 ## Business concept

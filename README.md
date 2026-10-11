@@ -26,7 +26,7 @@ HTML5, CSS3, JavaScript (vanilla), Bootstrap 5.3, Bootstrap Icons, Google Fonts,
 - **Slider:** a `show(n)` function toggles the `active` class on one slide at a time. The dots are created from the number of slides, and a timer advances the slide every 6 seconds.
 - **Accordion:** clicking a question closes every answer, then opens the clicked one unless it was already open. The open state is stored in `aria-expanded`.
 - **Contact form:** on submit, each field is checked with `checkValidity()`. Invalid fields get Bootstrap's `is-invalid` class, which shows the error message under them.
-- **Mobile menu:** Bootstrap's collapse closes the menu after a link is tapped.
+- **Mobile menu:** Bootstrap's collapse opens and closes the hamburger menu. My `main.js` also closes it after a link is tapped, using `bootstrap.Collapse.getOrCreateInstance(menu).hide()`.
 
 ## Folder structure
 ```

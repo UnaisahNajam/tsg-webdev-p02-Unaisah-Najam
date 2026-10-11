@@ -1,4 +1,4 @@
-/ ===== Testimonials slider =====
+// ===== Testimonials slider =====
 const slides = document.querySelectorAll('.slide');
 const dotsBox = document.getElementById('dots');
 let current = 0, timer;
